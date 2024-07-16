@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Veterinária “Patas Felizes”</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="veterinaria.ico">
+</head>
+
+<body>
+    <header>
+        <h1>Clínica Veterinária “Patas Felizes” </h1>
+    </header>
+
+    <section class="hero">
+        <div class="box-img">
+            <img class="responsiva" id="doutora" src="img/doutora2.webp" >
+        </div>
+        <div class="box-txt">
+            <span>Marque sua Consulta</span>
+            <h2> Especialistas em saúde<br>e bem-estar animal</h2>
+            <p>
+                 <b>Sobre Nós:</b>
+                Na Clínica Veterinária “Patas Felizes”, nossa paixão é cuidar dos seus amigos peludos como se fossem nossos próprios. Com uma equipe dedicada e experiente, oferecemos serviços de alta qualidade para cães, gatos e outros animais de estimação.
+            </p>
+            
+            <a target="_blank" href="https://wa.me/5599999999999?text=Ol%C3%A1+gostaria+de+marcar+uma+consulta"
+                class="btn-hero">Marcar Consulta</a>
+        </div>
+        <p> <img src="dog.webp" alt="img" height="300 " heigth="300"></p>
+    </section>
+
+    <section class="especialidades">
+        <div class="box-item">
+            <h3>Clínica Médica de Pequenos Animais:</h3>
+            <p> Essa especialidade abrange o diagnóstico e tratamento de doenças em cães e gatos. Os clínicos veterinários cuidam de problemas de saúde comuns, como infecções, distúrbios gastrointestinais e problemas cardíacos</p>
+            <a href="o.html">Profissional </a>
+            </a>
+        </div>
+        <div class="box-item">
+            <h3>Cirurgia Veterinária:</h3>
+            <p>Cirurgiões veterinários realizam procedimentos cirúrgicos em animais, desde castrações até cirurgias mais complexas, como correção de fraturas e remoção de tumores.</p>
+            <a href="g.html">Profissional</a>
+        </p>
+        </div>
+        <div class="box-item">
+            <h3> Cardiologia Veterinária:</h3>
+            <p>
+                Cardiologia Veterinária: Cardiologistas cuidam de doenças do coração e sistema circulatório em animais. Eles realizam exames como ecocardiogramas e tratam condições como insuficiência cardíaca
+              <br>  <a href="c.html">Profissional</a>
+            </p>
+        </div>
+        <a target="_blank" href="https://wa.me/5599999999999?text=Ol%C3%A1+gostaria+de+marcar+uma+consulta"
+            class="m-top btn-hero">Marcar Consulta</a>
+
+    </section>
+
+    <footer>
+        <p>2023 © Clínica Veterinária. Todos os direitos reservados.</p> <br>
+        <br> <p> <a href="form.html">Cadastre-se</a></p>
+    </footer>
+
+    <div class="whats">
+        <a target="_blank" href="https://wa.me/5599999999999?text=Ol%C3%A1+gostaria+de+marcar+uma+consulta">
+            <img width="50" src="img/whats.png">
+        </a>
+    </div>
+
+    <script>
+        //PEGAR O ELEMENTO
+        const doutora = document.getElementById('doutora');
+
+        //EVENTO QUANDO MOUSE ESTIVER POR CIMA DA IMAGEM
+        doutora.addEventListener('mouseover', function () {
+            doutora.src = "img/doutora2.webp";
+        });
+
+        //EVENTO QUANDO MOUSE SAIR DE CIMA DA IMAGEM
+        doutora.addEventListener('mouseout', function () {
+            doutora.src = "img/doutora3.webp";
+        });
+
+    </script>
+    
+</body>
+
+</html>
